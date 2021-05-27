@@ -1,0 +1,210 @@
+Reading FIB from file fibs/ip6/routes-293 ....... 
+---------------------SAIL-U-------------------------- 
+SAIL-U Real traffic prefix length = 16
+SAIL-U Random traffic prefix length = 16
+SAIL-U Sequencial traffic prefix length = 32
+SAIL-U Decreasing traffic prefix length = 48
+SAIL-U Prefix traffic prefix length = 43
+SAIL-U Repeated traffic prefix length = 43
+---------------------SAIL-L-------------------------- 
+SAIL-L Real traffic prefix length = 16
+SAIL-L Random traffic prefix length = 16
+SAIL-L Sequencial traffic prefix length = 40
+SAIL-L Decreasing traffic prefix length = 48
+SAIL-L Prefix traffic prefix length = 43
+SAIL-L Repeated traffic prefix length = 43
+---------------------Poptrie-------------------------- 
+Poptrie Real traffic prefix length = 16
+Poptrie Random traffic prefix length = 16
+Poptrie Sequencial traffic prefix length = 34
+Poptrie Decreasing traffic prefix length = 52
+Poptrie Prefix traffic prefix length = 45
+Poptrie Repeated traffic prefix length = 45
+---------------------CP-Trie-------------------------- 
+CP-Trie Real traffic prefix length = 16
+CP-Trie Random traffic prefix length = 16
+CP-Trie Sequencial traffic prefix length = 40
+CP-Trie Decreasing traffic prefix length = 48
+CP-Trie Prefix traffic prefix length = 43
+CP-Trie Repeated traffic prefix length = 43
+
+Reading FIB from file fibs/ip6/routes-852 ....... 
+---------------------SAIL-U-------------------------- 
+SAIL-U Real traffic prefix length = 16
+SAIL-U Random traffic prefix length = 16
+SAIL-U Sequencial traffic prefix length = 32
+SAIL-U Decreasing traffic prefix length = 48
+SAIL-U Prefix traffic prefix length = 43
+SAIL-U Repeated traffic prefix length = 43
+---------------------SAIL-L-------------------------- 
+SAIL-L Real traffic prefix length = 16
+SAIL-L Random traffic prefix length = 16
+SAIL-L Sequencial traffic prefix length = 40
+SAIL-L Decreasing traffic prefix length = 48
+SAIL-L Prefix traffic prefix length = 43
+SAIL-L Repeated traffic prefix length = 43
+---------------------Poptrie-------------------------- 
+Poptrie Real traffic prefix length = 16
+Poptrie Random traffic prefix length = 16
+Poptrie Sequencial traffic prefix length = 34
+Poptrie Decreasing traffic prefix length = 52
+Poptrie Prefix traffic prefix length = 45
+Poptrie Repeated traffic prefix length = 45
+---------------------CP-Trie-------------------------- 
+CP-Trie Real traffic prefix length = 16
+CP-Trie Random traffic prefix length = 16
+CP-Trie Sequencial traffic prefix length = 40
+CP-Trie Decreasing traffic prefix length = 48
+CP-Trie Prefix traffic prefix length = 43
+CP-Trie Repeated traffic prefix length = 43
+
+Reading FIB from file fibs/ip6/routes-19016 ....... 
+---------------------SAIL-U-------------------------- 
+SAIL-U Real traffic prefix length = 16
+SAIL-U Random traffic prefix length = 16
+SAIL-U Sequencial traffic prefix length = 32
+SAIL-U Decreasing traffic prefix length = 48
+SAIL-U Prefix traffic prefix length = 43
+SAIL-U Repeated traffic prefix length = 43
+---------------------SAIL-L-------------------------- 
+SAIL-L Real traffic prefix length = 16
+SAIL-L Random traffic prefix length = 16
+SAIL-L Sequencial traffic prefix length = 32
+SAIL-L Decreasing traffic prefix length = 112
+SAIL-L Prefix traffic prefix length = 43
+SAIL-L Repeated traffic prefix length = 43
+---------------------Poptrie-------------------------- 
+Poptrie Real traffic prefix length = 16
+Poptrie Random traffic prefix length = 16
+Poptrie Sequencial traffic prefix length = 34
+Poptrie Decreasing traffic prefix length = 107
+Poptrie Prefix traffic prefix length = 45
+Poptrie Repeated traffic prefix length = 45
+---------------------CP-Trie-------------------------- 
+CP-Trie Real traffic prefix length = 16
+CP-Trie Random traffic prefix length = 16
+CP-Trie Sequencial traffic prefix length = 32
+CP-Trie Decreasing traffic prefix length = 112
+CP-Trie Prefix traffic prefix length = 43
+CP-Trie Repeated traffic prefix length = 43
+
+Reading FIB from file fibs/ip6/routes-19151 ....... 
+---------------------SAIL-U-------------------------- 
+SAIL-U Real traffic prefix length = 16
+SAIL-U Random traffic prefix length = 16
+SAIL-U Sequencial traffic prefix length = 64
+SAIL-U Decreasing traffic prefix length = 48
+SAIL-U Prefix traffic prefix length = 43
+SAIL-U Repeated traffic prefix length = 43
+---------------------SAIL-L-------------------------- 
+SAIL-L Real traffic prefix length = 16
+SAIL-L Random traffic prefix length = 16
+SAIL-L Sequencial traffic prefix length = 64
+SAIL-L Decreasing traffic prefix length = 48
+SAIL-L Prefix traffic prefix length = 43
+SAIL-L Repeated traffic prefix length = 43
+---------------------Poptrie-------------------------- 
+Poptrie Real traffic prefix length = 16
+Poptrie Random traffic prefix length = 16
+Poptrie Sequencial traffic prefix length = 64
+Poptrie Decreasing traffic prefix length = 52
+Poptrie Prefix traffic prefix length = 45
+Poptrie Repeated traffic prefix length = 45
+---------------------CP-Trie-------------------------- 
+CP-Trie Real traffic prefix length = 16
+CP-Trie Random traffic prefix length = 16
+CP-Trie Sequencial traffic prefix length = 64
+CP-Trie Decreasing traffic prefix length = 48
+CP-Trie Prefix traffic prefix length = 43
+CP-Trie Repeated traffic prefix length = 43
+
+Reading FIB from file fibs/ip6/routes-19653 ....... 
+---------------------SAIL-U-------------------------- 
+SAIL-U Real traffic prefix length = 16
+SAIL-U Random traffic prefix length = 16
+SAIL-U Sequencial traffic prefix length = 32
+SAIL-U Decreasing traffic prefix length = 48
+SAIL-U Prefix traffic prefix length = 43
+SAIL-U Repeated traffic prefix length = 43
+---------------------SAIL-L-------------------------- 
+SAIL-L Real traffic prefix length = 16
+SAIL-L Random traffic prefix length = 16
+SAIL-L Sequencial traffic prefix length = 56
+SAIL-L Decreasing traffic prefix length = 112
+SAIL-L Prefix traffic prefix length = 43
+SAIL-L Repeated traffic prefix length = 43
+---------------------Poptrie-------------------------- 
+Poptrie Real traffic prefix length = 16
+Poptrie Random traffic prefix length = 16
+Poptrie Sequencial traffic prefix length = 58
+Poptrie Decreasing traffic prefix length = 107
+Poptrie Prefix traffic prefix length = 45
+Poptrie Repeated traffic prefix length = 45
+---------------------CP-Trie-------------------------- 
+CP-Trie Real traffic prefix length = 16
+CP-Trie Random traffic prefix length = 16
+CP-Trie Sequencial traffic prefix length = 56
+CP-Trie Decreasing traffic prefix length = 112
+CP-Trie Prefix traffic prefix length = 43
+CP-Trie Repeated traffic prefix length = 43
+
+Reading FIB from file fibs/ip6/routes-23367 ....... 
+---------------------SAIL-U-------------------------- 
+SAIL-U Real traffic prefix length = 16
+SAIL-U Random traffic prefix length = 16
+SAIL-U Sequencial traffic prefix length = 32
+SAIL-U Decreasing traffic prefix length = 48
+SAIL-U Prefix traffic prefix length = 43
+SAIL-U Repeated traffic prefix length = 43
+---------------------SAIL-L-------------------------- 
+SAIL-L Real traffic prefix length = 16
+SAIL-L Random traffic prefix length = 16
+SAIL-L Sequencial traffic prefix length = 40
+SAIL-L Decreasing traffic prefix length = 48
+SAIL-L Prefix traffic prefix length = 43
+SAIL-L Repeated traffic prefix length = 43
+---------------------Poptrie-------------------------- 
+Poptrie Real traffic prefix length = 16
+Poptrie Random traffic prefix length = 16
+Poptrie Sequencial traffic prefix length = 34
+Poptrie Decreasing traffic prefix length = 52
+Poptrie Prefix traffic prefix length = 45
+Poptrie Repeated traffic prefix length = 45
+---------------------CP-Trie-------------------------- 
+CP-Trie Real traffic prefix length = 16
+CP-Trie Random traffic prefix length = 16
+CP-Trie Sequencial traffic prefix length = 40
+CP-Trie Decreasing traffic prefix length = 48
+CP-Trie Prefix traffic prefix length = 43
+CP-Trie Repeated traffic prefix length = 43
+
+Reading FIB from file fibs/ip6/routes-53828 ....... 
+---------------------SAIL-U-------------------------- 
+SAIL-U Real traffic prefix length = 16
+SAIL-U Random traffic prefix length = 16
+SAIL-U Sequencial traffic prefix length = 32
+SAIL-U Decreasing traffic prefix length = 48
+SAIL-U Prefix traffic prefix length = 43
+SAIL-U Repeated traffic prefix length = 43
+---------------------SAIL-L-------------------------- 
+SAIL-L Real traffic prefix length = 16
+SAIL-L Random traffic prefix length = 16
+SAIL-L Sequencial traffic prefix length = 40
+SAIL-L Decreasing traffic prefix length = 48
+SAIL-L Prefix traffic prefix length = 43
+SAIL-L Repeated traffic prefix length = 43
+---------------------Poptrie-------------------------- 
+Poptrie Real traffic prefix length = 16
+Poptrie Random traffic prefix length = 16
+Poptrie Sequencial traffic prefix length = 34
+Poptrie Decreasing traffic prefix length = 52
+Poptrie Prefix traffic prefix length = 45
+Poptrie Repeated traffic prefix length = 45
+---------------------CP-Trie-------------------------- 
+CP-Trie Real traffic prefix length = 16
+CP-Trie Random traffic prefix length = 16
+CP-Trie Sequencial traffic prefix length = 40
+CP-Trie Decreasing traffic prefix length = 48
+CP-Trie Prefix traffic prefix length = 43
+CP-Trie Repeated traffic prefix length = 43
+

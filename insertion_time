@@ -1,0 +1,98 @@
+Reading FIB from file fibs/ip6/routes-293 ....... 
+---------------------Checking SAIL-U-------------------------- 
+SAIL-U insertion time per prefix = 311.177544 microsec 
+---------------------Checking SAIL-L-------------------------- 
+SAIL-L insertion time per prefix = 314.423685 microsec 
+SAIL-L memory consumption = 7.503662 MB 
+---------------------Checking Poptrie-------------------------- 
+Poptrie insertion time per prefix = 341.401457 microsec 
+Poptrie memory consumption = 1.046245 MB 
+---------------------Checking CP-Trie-------------------------- 
+CP-Trie insertion time per prefix = 329.016934 microsec 
+CP-Trie memory consumption = 1.181066 MB 
+The test case passed
+
+Reading FIB from file fibs/ip6/routes-852 ....... 
+---------------------Checking SAIL-U-------------------------- 
+SAIL-U insertion time per prefix = 321.194906 microsec 
+---------------------Checking SAIL-L-------------------------- 
+SAIL-L insertion time per prefix = 310.323466 microsec 
+SAIL-L memory consumption = 7.418213 MB 
+---------------------Checking Poptrie-------------------------- 
+Poptrie insertion time per prefix = 341.583278 microsec 
+Poptrie memory consumption = 1.040731 MB 
+---------------------Checking CP-Trie-------------------------- 
+CP-Trie insertion time per prefix = 316.611686 microsec 
+CP-Trie memory consumption = 1.164876 MB 
+The test case passed
+
+Reading FIB from file fibs/ip6/routes-19016 ....... 
+---------------------Checking SAIL-U-------------------------- 
+SAIL-U insertion time per prefix = 398.531543 microsec 
+---------------------Checking SAIL-L-------------------------- 
+SAIL-L insertion time per prefix = 390.396928 microsec 
+SAIL-L memory consumption = 10.297852 MB 
+---------------------Checking Poptrie-------------------------- 
+Poptrie insertion time per prefix = 329.378898 microsec 
+Poptrie memory consumption = 1.138512 MB 
+---------------------Checking CP-Trie-------------------------- 
+CP-Trie insertion time per prefix = 481.794376 microsec 
+CP-Trie memory consumption = 1.450035 MB 
+The test case passed
+
+Reading FIB from file fibs/ip6/routes-19151 ....... 
+---------------------Checking SAIL-U-------------------------- 
+SAIL-U insertion time per prefix = 361.777930 microsec 
+---------------------Checking SAIL-L-------------------------- 
+SAIL-L insertion time per prefix = 353.067540 microsec 
+SAIL-L memory consumption = 8.199463 MB 
+---------------------Checking Poptrie-------------------------- 
+Poptrie insertion time per prefix = 395.615642 microsec 
+Poptrie memory consumption = 1.113581 MB 
+---------------------Checking CP-Trie-------------------------- 
+CP-Trie insertion time per prefix = 561.998111 microsec 
+CP-Trie memory consumption = 1.366576 MB 
+The test case passed
+
+Reading FIB from file fibs/ip6/routes-19653 ....... 
+---------------------Checking SAIL-U-------------------------- 
+SAIL-U insertion time per prefix = 351.903375 microsec 
+---------------------Checking SAIL-L-------------------------- 
+SAIL-L insertion time per prefix = 344.306975 microsec 
+SAIL-L memory consumption = 8.200684 MB 
+---------------------Checking Poptrie-------------------------- 
+Poptrie insertion time per prefix = 425.216942 microsec 
+Poptrie memory consumption = 1.079851 MB 
+---------------------Checking CP-Trie-------------------------- 
+CP-Trie insertion time per prefix = 647.845724 microsec 
+CP-Trie memory consumption = 1.398739 MB 
+The test case passed
+
+Reading FIB from file fibs/ip6/routes-23367 ....... 
+---------------------Checking SAIL-U-------------------------- 
+SAIL-U insertion time per prefix = 324.502856 microsec 
+---------------------Checking SAIL-L-------------------------- 
+SAIL-L insertion time per prefix = 313.619476 microsec 
+SAIL-L memory consumption = 7.498779 MB 
+---------------------Checking Poptrie-------------------------- 
+Poptrie insertion time per prefix = 340.234691 microsec 
+Poptrie memory consumption = 1.039727 MB 
+---------------------Checking CP-Trie-------------------------- 
+CP-Trie insertion time per prefix = 322.714460 microsec 
+CP-Trie memory consumption = 1.172935 MB 
+The test case passed
+
+Reading FIB from file fibs/ip6/routes-53828 ....... 
+---------------------Checking SAIL-U-------------------------- 
+SAIL-U insertion time per prefix = 325.802660 microsec 
+---------------------Checking SAIL-L-------------------------- 
+SAIL-L insertion time per prefix = 314.438717 microsec 
+SAIL-L memory consumption = 7.491455 MB 
+---------------------Checking Poptrie-------------------------- 
+Poptrie insertion time per prefix = 333.161718 microsec 
+Poptrie memory consumption = 1.050315 MB 
+---------------------Checking CP-Trie-------------------------- 
+CP-Trie insertion time per prefix = 319.732695 microsec 
+CP-Trie memory consumption = 1.170293 MB 
+The test case passed
+

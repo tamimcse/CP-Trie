@@ -1,0 +1,670 @@
+PrefixLength	Percenrage 
+0	0.000331 
+16	0.000882 
+19	0.000993 
+20	0.012575 
+21	0.002978 
+22	0.006729 
+23	0.006508 
+24	0.026915 
+25	0.007391 
+26	0.013237 
+27	0.019525 
+28	0.110198 
+29	3.382832 
+30	0.464068 
+31	0.180575 
+32	15.172280 
+33	1.937901 
+34	1.647679 
+35	0.713807 
+36	4.005635 
+37	0.660197 
+38	1.118970 
+39	0.390823 
+40	5.576318 
+41	0.625891 
+42	2.320451 
+43	0.546689 
+44	6.874650 
+45	0.682258 
+46	2.217423 
+47	1.545864 
+48	49.552258 
+49	0.006508 
+50	0.003199 
+51	0.000552 
+52	0.005185 
+56	0.016767 
+58	0.000662 
+59	0.001324 
+60	0.002096 
+61	0.000662 
+62	0.000110 
+63	0.000441 
+64	0.130385 
+65	0.000221 
+112	0.000552 
+120	0.000110 
+123	0.000110 
+124	0.000221 
+125	0.000331 
+126	0.002316 
+127	0.000772 
+128	0.002647 
+
+
+PrefixLength	Percenrage (Aggregated) 
+0-31	4.235738 
+32	15.172280 
+33-39	10.475011 
+40	5.576318 
+41-47	14.813226 
+48	49.552258 
+49-64	0.167890 
+65-128	0.007280 
+
+
+FIB 0
+...................................
+Total prefixes: 105363
+Prefixes (49-64): 0
+Prefixes (65-128): 0
+
+SAIL-U insertion: 152.310522 microsec 
+SAIL-L insertion: 152.749995 microsec 
+Poptrie insertion: 104.133180 microsec 
+CP-Trie insertion: 120.883665 microsec 
+
+SAIL-U memory: 35.031738 MB 
+SAIL-L memory: 35.031738 MB 
+Poptrie memory: 3.939482 MB 
+CP-Trie memory: 5.670671 MB 
+CP-Trie consumes 1.439446 X memory compared to Poptrie
+
+SAIL-U lookup time: 16.353992 ns 
+SAIL-L lookup time: 15.805247 ns 
+Poptrie lookup time: 36.894400 ns 
+CP-Trie lookup time: 33.045743 ns 
+
+SAIL-U lookup cpu cycle: 50.697372 
+SAIL-L lookup cpu cycle: 48.996264 
+Poptrie lookup cpu cycle: 114.372635 
+CP-Trie lookup cpu cycle: 102.441802 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 252.079813 Mlps 
+SAIL-L lookup throughput: 298.544468 Mlps 
+Poptrie lookup throughput: 187.368667 Mlps 
+CP-Trie lookup throughput: 106.089630 Mlps 
+CP-Trie achieves 0.566208 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 327.486246 Mlps 
+SAIL-L lookup throughput: 323.481663 Mlps 
+Poptrie lookup throughput: 306.462768 Mlps 
+CP-Trie lookup throughput: 224.585163 Mlps 
+CP-Trie achieves 0.732830 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 67.817464 Mlps 
+SAIL-L lookup throughput: 23.282967 Mlps 
+Poptrie lookup throughput: 15.180382 Mlps 
+CP-Trie lookup throughput: 15.490923 Mlps 
+CP-Trie achieves 1.020457 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 54.368598 Mlps 
+SAIL-L lookup throughput: 63.481171 Mlps 
+Poptrie lookup throughput: 30.210762 Mlps 
+CP-Trie lookup throughput: 33.774549 Mlps 
+CP-Trie achieves 1.117964 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 61.147151 Mlps 
+SAIL-L lookup throughput: 63.270126 Mlps 
+Poptrie lookup throughput: 27.104384 Mlps 
+CP-Trie lookup throughput: 30.261084 Mlps 
+CP-Trie achieves 1.116465 X lookup throughput compared to Poptrie 
+
+FIB 1
+...................................
+Total prefixes: 102126
+Prefixes (49-64): 0
+Prefixes (65-128): 0
+
+SAIL-U insertion: 162.787584 microsec 
+SAIL-L insertion: 155.405341 microsec 
+Poptrie insertion: 98.036885 microsec 
+CP-Trie insertion: 112.060379 microsec 
+
+SAIL-U memory: 34.147949 MB 
+SAIL-L memory: 34.147949 MB 
+Poptrie memory: 3.847771 MB 
+CP-Trie memory: 5.452033 MB 
+CP-Trie consumes 1.416933 X memory compared to Poptrie
+
+SAIL-U lookup time: 15.384781 ns 
+SAIL-L lookup time: 13.436420 ns 
+Poptrie lookup time: 36.918387 ns 
+CP-Trie lookup time: 33.376273 ns 
+
+SAIL-U lookup cpu cycle: 47.692820 
+SAIL-L lookup cpu cycle: 41.652899 
+Poptrie lookup cpu cycle: 114.446993 
+CP-Trie lookup cpu cycle: 103.466439 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 254.264268 Mlps 
+SAIL-L lookup throughput: 303.910262 Mlps 
+Poptrie lookup throughput: 189.933782 Mlps 
+CP-Trie lookup throughput: 105.590673 Mlps 
+CP-Trie achieves 0.555934 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 324.574934 Mlps 
+SAIL-L lookup throughput: 318.252250 Mlps 
+Poptrie lookup throughput: 344.781513 Mlps 
+CP-Trie lookup throughput: 223.964684 Mlps 
+CP-Trie achieves 0.649584 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 22.256498 Mlps 
+SAIL-L lookup throughput: 127.711612 Mlps 
+Poptrie lookup throughput: 15.184448 Mlps 
+CP-Trie lookup throughput: 15.288882 Mlps 
+CP-Trie achieves 1.006878 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 50.889670 Mlps 
+SAIL-L lookup throughput: 50.461948 Mlps 
+Poptrie lookup throughput: 30.516600 Mlps 
+CP-Trie lookup throughput: 33.792996 Mlps 
+CP-Trie achieves 1.107364 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 64.976629 Mlps 
+SAIL-L lookup throughput: 74.121467 Mlps 
+Poptrie lookup throughput: 27.185532 Mlps 
+CP-Trie lookup throughput: 30.429301 Mlps 
+CP-Trie achieves 1.119320 X lookup throughput compared to Poptrie 
+
+FIB 2
+...................................
+Total prefixes: 79431
+Prefixes (49-64): 17
+Prefixes (65-128): 0
+
+SAIL-U insertion: 181.737781 microsec 
+SAIL-L insertion: 171.962282 microsec 
+Poptrie insertion: 69.687995 microsec 
+CP-Trie insertion: 73.330401 microsec 
+
+SAIL-U memory: 28.359375 MB 
+SAIL-L memory: 28.359375 MB 
+Poptrie memory: 3.090416 MB 
+CP-Trie memory: 4.216372 MB 
+CP-Trie consumes 1.364338 X memory compared to Poptrie
+
+SAIL-U lookup time: 14.982159 ns 
+SAIL-L lookup time: 12.752475 ns 
+Poptrie lookup time: 35.867410 ns 
+CP-Trie lookup time: 32.247488 ns 
+
+SAIL-U lookup cpu cycle: 46.444692 
+SAIL-L lookup cpu cycle: 39.532671 
+Poptrie lookup cpu cycle: 111.188963 
+CP-Trie lookup cpu cycle: 99.967209 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 227.755759 Mlps 
+SAIL-L lookup throughput: 305.275054 Mlps 
+Poptrie lookup throughput: 187.271657 Mlps 
+CP-Trie lookup throughput: 106.254252 Mlps 
+CP-Trie achieves 0.567380 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 305.866977 Mlps 
+SAIL-L lookup throughput: 333.470878 Mlps 
+Poptrie lookup throughput: 343.097656 Mlps 
+CP-Trie lookup throughput: 228.826891 Mlps 
+CP-Trie achieves 0.666944 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 42.911213 Mlps 
+SAIL-L lookup throughput: 47.700906 Mlps 
+Poptrie lookup throughput: 11.035557 Mlps 
+CP-Trie lookup throughput: 11.009377 Mlps 
+CP-Trie achieves 0.997628 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 47.880376 Mlps 
+SAIL-L lookup throughput: 63.295082 Mlps 
+Poptrie lookup throughput: 29.930853 Mlps 
+CP-Trie lookup throughput: 34.101359 Mlps 
+CP-Trie achieves 1.139338 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 66.746053 Mlps 
+SAIL-L lookup throughput: 78.416151 Mlps 
+Poptrie lookup throughput: 27.880463 Mlps 
+CP-Trie lookup throughput: 31.010167 Mlps 
+CP-Trie achieves 1.112254 X lookup throughput compared to Poptrie 
+
+FIB 3
+...................................
+Total prefixes: 103067
+Prefixes (49-64): 789
+Prefixes (65-128): 32
+
+SAIL-U insertion: 169.947160 microsec 
+SAIL-L insertion: 162.213296 microsec 
+Poptrie insertion: 109.143694 microsec 
+CP-Trie insertion: 134.319268 microsec 
+
+SAIL-U memory: 35.572510 MB 
+SAIL-L memory: 35.572510 MB 
+Poptrie memory: 3.974583 MB 
+CP-Trie memory: 5.822149 MB 
+CP-Trie consumes 1.464845 X memory compared to Poptrie
+
+SAIL-U lookup time: 16.398029 ns 
+SAIL-L lookup time: 15.101416 ns 
+Poptrie lookup time: 39.117343 ns 
+CP-Trie lookup time: 33.350027 ns 
+
+SAIL-U lookup cpu cycle: 50.833888 
+SAIL-L lookup cpu cycle: 46.814389 
+Poptrie lookup cpu cycle: 121.263755 
+CP-Trie lookup cpu cycle: 103.385085 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 253.436295 Mlps 
+SAIL-L lookup throughput: 299.717094 Mlps 
+Poptrie lookup throughput: 185.222000 Mlps 
+CP-Trie lookup throughput: 106.130213 Mlps 
+CP-Trie achieves 0.572989 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 329.790660 Mlps 
+SAIL-L lookup throughput: 325.970033 Mlps 
+Poptrie lookup throughput: 331.503871 Mlps 
+CP-Trie lookup throughput: 226.646045 Mlps 
+CP-Trie achieves 0.683690 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 13.017945 Mlps 
+SAIL-L lookup throughput: 37.073716 Mlps 
+Poptrie lookup throughput: 5.041035 Mlps 
+CP-Trie lookup throughput: 6.581632 Mlps 
+CP-Trie achieves 1.305611 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 46.955230 Mlps 
+SAIL-L lookup throughput: 60.816962 Mlps 
+Poptrie lookup throughput: 29.472191 Mlps 
+CP-Trie lookup throughput: 33.227215 Mlps 
+CP-Trie achieves 1.127409 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 61.405429 Mlps 
+SAIL-L lookup throughput: 67.365651 Mlps 
+Poptrie lookup throughput: 24.917456 Mlps 
+CP-Trie lookup throughput: 30.130918 Mlps 
+CP-Trie achieves 1.209229 X lookup throughput compared to Poptrie 
+
+FIB 4
+...................................
+Total prefixes: 105957
+Prefixes (49-64): 636
+Prefixes (65-128): 32
+
+SAIL-U insertion: 163.134931 microsec 
+SAIL-L insertion: 155.988908 microsec 
+Poptrie insertion: 105.403509 microsec 
+CP-Trie insertion: 137.349841 microsec 
+
+SAIL-U memory: 36.051025 MB 
+SAIL-L memory: 36.051025 MB 
+Poptrie memory: 4.020013 MB 
+CP-Trie memory: 5.928090 MB 
+CP-Trie consumes 1.474645 X memory compared to Poptrie
+
+SAIL-U lookup time: 15.545180 ns 
+SAIL-L lookup time: 13.546164 ns 
+Poptrie lookup time: 36.859131 ns 
+CP-Trie lookup time: 33.163611 ns 
+
+SAIL-U lookup cpu cycle: 48.190057 
+SAIL-L lookup cpu cycle: 41.993106 
+Poptrie lookup cpu cycle: 114.263302 
+CP-Trie lookup cpu cycle: 102.807190 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 255.089673 Mlps 
+SAIL-L lookup throughput: 318.140957 Mlps 
+Poptrie lookup throughput: 191.154668 Mlps 
+CP-Trie lookup throughput: 107.361701 Mlps 
+CP-Trie achieves 0.561648 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 322.025608 Mlps 
+SAIL-L lookup throughput: 334.180223 Mlps 
+Poptrie lookup throughput: 347.235029 Mlps 
+CP-Trie lookup throughput: 229.318366 Mlps 
+CP-Trie achieves 0.660413 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 13.187763 Mlps 
+SAIL-L lookup throughput: 15.697134 Mlps 
+Poptrie lookup throughput: 4.408815 Mlps 
+CP-Trie lookup throughput: 6.330870 Mlps 
+CP-Trie achieves 1.435957 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 50.939197 Mlps 
+SAIL-L lookup throughput: 63.281953 Mlps 
+Poptrie lookup throughput: 30.429099 Mlps 
+CP-Trie lookup throughput: 33.624021 Mlps 
+CP-Trie achieves 1.104996 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 63.309206 Mlps 
+SAIL-L lookup throughput: 72.583840 Mlps 
+Poptrie lookup throughput: 26.558449 Mlps 
+CP-Trie lookup throughput: 30.058136 Mlps 
+CP-Trie achieves 1.131773 X lookup throughput compared to Poptrie 
+
+FIB 5
+...................................
+Total prefixes: 102739
+Prefixes (49-64): 37
+Prefixes (65-128): 0
+
+SAIL-U insertion: 161.694852 microsec 
+SAIL-L insertion: 154.151803 microsec 
+Poptrie insertion: 97.807095 microsec 
+CP-Trie insertion: 115.520534 microsec 
+
+SAIL-U memory: 34.322510 MB 
+SAIL-L memory: 34.322510 MB 
+Poptrie memory: 3.831074 MB 
+CP-Trie memory: 5.532438 MB 
+CP-Trie consumes 1.444096 X memory compared to Poptrie
+
+SAIL-U lookup time: 15.193814 ns 
+SAIL-L lookup time: 13.317526 ns 
+Poptrie lookup time: 36.309094 ns 
+CP-Trie lookup time: 33.002359 ns 
+
+SAIL-U lookup cpu cycle: 47.100821 
+SAIL-L lookup cpu cycle: 41.284332 
+Poptrie lookup cpu cycle: 112.558185 
+CP-Trie lookup cpu cycle: 102.307306 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 252.619499 Mlps 
+SAIL-L lookup throughput: 315.526928 Mlps 
+Poptrie lookup throughput: 196.265969 Mlps 
+CP-Trie lookup throughput: 107.482153 Mlps 
+CP-Trie achieves 0.547635 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 330.748154 Mlps 
+SAIL-L lookup throughput: 339.260032 Mlps 
+Poptrie lookup throughput: 346.686434 Mlps 
+CP-Trie lookup throughput: 232.747238 Mlps 
+CP-Trie achieves 0.671348 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 19.885737 Mlps 
+SAIL-L lookup throughput: 21.574010 Mlps 
+Poptrie lookup throughput: 10.735204 Mlps 
+CP-Trie lookup throughput: 11.702770 Mlps 
+CP-Trie achieves 1.090130 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 53.092426 Mlps 
+SAIL-L lookup throughput: 66.668889 Mlps 
+Poptrie lookup throughput: 30.109329 Mlps 
+CP-Trie lookup throughput: 34.003179 Mlps 
+CP-Trie achieves 1.129324 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 65.816259 Mlps 
+SAIL-L lookup throughput: 75.089020 Mlps 
+Poptrie lookup throughput: 27.541309 Mlps 
+CP-Trie lookup throughput: 30.300864 Mlps 
+CP-Trie achieves 1.100197 X lookup throughput compared to Poptrie 
+
+FIB 6
+...................................
+Total prefixes: 104235
+Prefixes (49-64): 0
+Prefixes (65-128): 0
+
+SAIL-U insertion: 160.026252 microsec 
+SAIL-L insertion: 152.485502 microsec 
+Poptrie insertion: 99.269724 microsec 
+CP-Trie insertion: 117.226883 microsec 
+
+SAIL-U memory: 34.714355 MB 
+SAIL-L memory: 34.714355 MB 
+Poptrie memory: 3.890134 MB 
+CP-Trie memory: 5.597359 MB 
+CP-Trie consumes 1.438860 X memory compared to Poptrie
+
+SAIL-U lookup time: 16.066978 ns 
+SAIL-L lookup time: 15.269792 ns 
+Poptrie lookup time: 36.679001 ns 
+CP-Trie lookup time: 32.984387 ns 
+
+SAIL-U lookup cpu cycle: 49.807630 
+SAIL-L lookup cpu cycle: 47.336352 
+Poptrie lookup cpu cycle: 113.704895 
+CP-Trie lookup cpu cycle: 102.251594 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 265.660381 Mlps 
+SAIL-L lookup throughput: 316.807688 Mlps 
+Poptrie lookup throughput: 196.243538 Mlps 
+CP-Trie lookup throughput: 107.078443 Mlps 
+CP-Trie achieves 0.545641 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 335.493808 Mlps 
+SAIL-L lookup throughput: 334.087511 Mlps 
+Poptrie lookup throughput: 353.451651 Mlps 
+CP-Trie lookup throughput: 230.219694 Mlps 
+CP-Trie achieves 0.651347 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 22.395936 Mlps 
+SAIL-L lookup throughput: 23.480678 Mlps 
+Poptrie lookup throughput: 15.245121 Mlps 
+CP-Trie lookup throughput: 15.883118 Mlps 
+CP-Trie achieves 1.041849 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 51.801212 Mlps 
+SAIL-L lookup throughput: 63.922637 Mlps 
+Poptrie lookup throughput: 30.297948 Mlps 
+CP-Trie lookup throughput: 33.802973 Mlps 
+CP-Trie achieves 1.115685 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 62.239456 Mlps 
+SAIL-L lookup throughput: 65.488776 Mlps 
+Poptrie lookup throughput: 27.263556 Mlps 
+CP-Trie lookup throughput: 30.317374 Mlps 
+CP-Trie achieves 1.112011 X lookup throughput compared to Poptrie 
+
+FIB 7
+...................................
+Total prefixes: 100899
+Prefixes (49-64): 26
+Prefixes (65-128): 0
+
+SAIL-U insertion: 164.240785 microsec 
+SAIL-L insertion: 155.769460 microsec 
+Poptrie insertion: 97.280061 microsec 
+CP-Trie insertion: 109.904919 microsec 
+
+SAIL-U memory: 33.878174 MB 
+SAIL-L memory: 33.878174 MB 
+Poptrie memory: 3.803738 MB 
+CP-Trie memory: 5.393457 MB 
+CP-Trie consumes 1.417936 X memory compared to Poptrie
+
+SAIL-U lookup time: 15.154385 ns 
+SAIL-L lookup time: 13.078508 ns 
+Poptrie lookup time: 37.053894 ns 
+CP-Trie lookup time: 32.905930 ns 
+
+SAIL-U lookup cpu cycle: 46.978593 
+SAIL-L lookup cpu cycle: 40.543375 
+Poptrie lookup cpu cycle: 114.867065 
+CP-Trie lookup cpu cycle: 102.008382 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 257.739093 Mlps 
+SAIL-L lookup throughput: 318.325135 Mlps 
+Poptrie lookup throughput: 197.576006 Mlps 
+CP-Trie lookup throughput: 107.511698 Mlps 
+CP-Trie achieves 0.544154 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 330.148141 Mlps 
+SAIL-L lookup throughput: 333.941162 Mlps 
+Poptrie lookup throughput: 354.036167 Mlps 
+CP-Trie lookup throughput: 230.449224 Mlps 
+CP-Trie achieves 0.650920 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 19.377364 Mlps 
+SAIL-L lookup throughput: 21.796808 Mlps 
+Poptrie lookup throughput: 10.934594 Mlps 
+CP-Trie lookup throughput: 11.587770 Mlps 
+CP-Trie achieves 1.059735 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 52.017992 Mlps 
+SAIL-L lookup throughput: 62.449127 Mlps 
+Poptrie lookup throughput: 30.197935 Mlps 
+CP-Trie lookup throughput: 34.065148 Mlps 
+CP-Trie achieves 1.128062 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 63.912077 Mlps 
+SAIL-L lookup throughput: 73.732893 Mlps 
+Poptrie lookup throughput: 27.262241 Mlps 
+CP-Trie lookup throughput: 31.056510 Mlps 
+CP-Trie achieves 1.139177 X lookup throughput compared to Poptrie 
+
+FIB 8
+...................................
+Total prefixes: 102731
+Prefixes (49-64): 17
+Prefixes (65-128): 2
+
+SAIL-U insertion: 161.639662 microsec 
+SAIL-L insertion: 154.192724 microsec 
+Poptrie insertion: 97.289021 microsec 
+CP-Trie insertion: 115.842927 microsec 
+
+SAIL-U memory: 34.290771 MB 
+SAIL-L memory: 34.290771 MB 
+Poptrie memory: 3.828488 MB 
+CP-Trie memory: 5.524950 MB 
+CP-Trie consumes 1.443115 X memory compared to Poptrie
+
+SAIL-U lookup time: 15.257658 ns 
+SAIL-L lookup time: 13.269354 ns 
+Poptrie lookup time: 36.444818 ns 
+CP-Trie lookup time: 33.005014 ns 
+
+SAIL-U lookup cpu cycle: 47.298740 
+SAIL-L lookup cpu cycle: 41.134997 
+Poptrie lookup cpu cycle: 112.978936 
+CP-Trie lookup cpu cycle: 102.315541 
+
+Real traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 256.648133 Mlps 
+SAIL-L lookup throughput: 317.682555 Mlps 
+Poptrie lookup throughput: 194.268792 Mlps 
+CP-Trie lookup throughput: 106.675190 Mlps 
+CP-Trie achieves 0.549111 X lookup throughput compared to Poptrie
+
+Random traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 326.237546 Mlps 
+SAIL-L lookup throughput: 334.017193 Mlps 
+Poptrie lookup throughput: 352.314371 Mlps 
+CP-Trie lookup throughput: 230.534975 Mlps 
+CP-Trie achieves 0.654345 X lookup throughput compared to Poptrie
+
+Sequential traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 12.845165 Mlps 
+SAIL-L lookup throughput: 15.862165 Mlps 
+Poptrie lookup throughput: 5.248018 Mlps 
+CP-Trie lookup throughput: 6.729130 Mlps 
+CP-Trie achieves 1.282223 X lookup throughput compared to Poptrie
+
+Prefix traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 52.633386 Mlps 
+SAIL-L lookup throughput: 65.190048 Mlps 
+Poptrie lookup throughput: 30.686771 Mlps 
+CP-Trie lookup throughput: 34.094121 Mlps 
+CP-Trie achieves 1.111036 X lookup throughput compared to Poptrie
+
+Repeated traffic
+--------------------------------------------------
+SAIL-U lookup throughput: 62.839766 Mlps 
+SAIL-L lookup throughput: 76.345375 Mlps 
+Poptrie lookup throughput: 27.642125 Mlps 
+CP-Trie lookup throughput: 30.665706 Mlps 
+CP-Trie achieves 1.109383 X lookup throughput compared to Poptrie 
+

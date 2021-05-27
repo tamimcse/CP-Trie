@@ -1,4 +1,4 @@
-Implementation of CP-Trie, Poptrie and SAIL. Details of the project would be found in the paper:
+Implementation of CP-Trie, Poptrie and SAIL based IPv6 routing table lookup. The details of the project would be found in the paper:
 
 MD Iftakharul Islam, Javed I Khan "CP-Trie: Cumulative PopCount based Trie for IPv6 Routing Table Lookup in Software and ASIC", IEEE HPSR, 2021.
 

@@ -1,7 +1,9 @@
 Implementation of CP-Trie [1], Poptrie [2] and SAIL [3] based IPv6 routing table lookup.
 
 `1. MD Iftakharul Islam, Javed I Khan "CP-Trie: Cumulative PopCount based Trie for IPv6 Routing Table Lookup in Software and ASIC", IEEE HPSR, 2021.`
+
 `2. Asai, Hirochika, et al. "Poptrie: A compressed trie with population count for fast and scalable software IP routing table lookup." ACM SIGCOMM, 2015`
+
 `3. Yang, Tong, et al. "Guarantee IP lookup performance with FIB explosion." ACM SIGCOMM, 2014`
 
 License

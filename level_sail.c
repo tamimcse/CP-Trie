@@ -36,6 +36,8 @@ int sail_level_init (struct sail_level *c, uint8_t level_num, uint32_t tot_num_c
 }
 
 int sail_level_cleanup (struct sail_level *c) {
+  int err = 0;
+  
   free(c->N);
   free(c->P);
   free(c->C);
@@ -43,6 +45,7 @@ int sail_level_cleanup (struct sail_level *c) {
   c->count = 0;
   c->parent = NULL;
   c->chield = NULL;
+  return err;
 }
 
 int sail_level_print (struct sail_level *c) {

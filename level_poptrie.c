@@ -36,11 +36,14 @@ int poptrie_level_init (struct poptrie_level *l, uint8_t level_num, uint32_t siz
 }
 
 int poptrie_level_cleanup (struct poptrie_level *l) {
+  int err = 0;
+
   free(l->B);
   l->size = 0;
   l->count = 0;
   l->parent = NULL;
   l->chield = NULL;
+  return err;
 }
 
 int poptrie_level_print (struct poptrie_level *l) {
@@ -48,6 +51,7 @@ int poptrie_level_print (struct poptrie_level *l) {
     if (l->B[i].vec || l->B[i].leafvec)
       printf ("l->B[%lld]: vec = %llu/%d leafvec = %llu/%d \n", i, l->B[i].vec, l->B[i].base0, l->B[i].leafvec, l->B[i].base1);
   }
+  return 0;
 }
 
 double mem_size (struct poptrie_level *l) {

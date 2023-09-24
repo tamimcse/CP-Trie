@@ -87,6 +87,8 @@ int poptrie_init () {
 }
 
 int poptrie_cleanup() {
+  int err = 0;
+
   leaf_cleanup(&poptrie.leafs16);
   dir_cleanup(&poptrie.dir16);
   leaf_cleanup(&poptrie.leafs);
@@ -110,6 +112,7 @@ int poptrie_cleanup() {
   poptrie_level_cleanup(&poptrie.L118);
   poptrie_level_cleanup(&poptrie.L124);
   memset(&poptrie, 0, sizeof(poptrie));
+  return 0;
 }
 
 //Calculate memory in MB
@@ -361,6 +364,7 @@ static int leaf_pushing (struct poptrie_level *l, uint32_t idx, uint32_t stride,
       _poptrie_insert (matching_key + (1 << 3), prefix_len, next_hop, curr_level + 1);
     }
   }
+  return 0;
 }
 
 int poptrie_insert(__uint128_t key, int prefix_len, int nexthop) {

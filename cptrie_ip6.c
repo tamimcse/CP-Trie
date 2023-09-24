@@ -64,9 +64,12 @@ int cptrie_init () {
   err = cptrie_level_init (&cptrie.level128, 128, SIZE128, &cptrie.level120);
   //The count of level 16 is preset. It's not changed
   cptrie.level16.count = SIZE16/4;
+  return err;
 }
 
 int cptrie_cleanup() {
+  int err = 0;
+
   leaf_cleanup(&cptrie.leaf);
   cptrie_level_cleanup(&cptrie.level16);
   cptrie_level_cleanup(&cptrie.level24);
@@ -84,6 +87,7 @@ int cptrie_cleanup() {
   cptrie_level_cleanup(&cptrie.level120);
   cptrie_level_cleanup(&cptrie.level128);
   memset(&cptrie, 0, sizeof(cptrie));
+  return err;
 }
 
 //Calculate memory in MB

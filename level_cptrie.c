@@ -33,12 +33,15 @@ int cptrie_level_init (struct cptrie_level *l, uint8_t level_num, uint32_t size,
 }
 
 int cptrie_level_cleanup (struct cptrie_level *l) {
+  int err = 0;
+
   free(l->B);
   free(l->C);
   l->size = 0;
   l->count = 0;
   l->parent = NULL;
   l->chield = NULL;
+  return err;
 }
 
 double mem_size (struct cptrie_level *l) {

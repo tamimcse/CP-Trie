@@ -76,6 +76,8 @@ int sail_l_init () {
 }
 
 int sail_l_cleanup() {
+  int err = 0;
+
   sail_level_cleanup (&sail_l.level16);
   sail_level_cleanup (&sail_l.level24);
   sail_level_cleanup (&sail_l.level32);
@@ -92,6 +94,7 @@ int sail_l_cleanup() {
   sail_level_cleanup (&sail_l.level120);
   sail_level_cleanup (&sail_l.level128);
   memset(&sail_l, 0, sizeof(sail_l));
+  return err;
 }
 
 //Calculate memory in MB

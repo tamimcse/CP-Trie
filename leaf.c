@@ -30,10 +30,13 @@ int leaf_init (struct leaf *l, uint32_t size) {
 }
 
 int leaf_cleanup (struct leaf *l) {
+  int err = 0;
+
   free(l->N);
   free(l->P);
   l->size = 0;
   l->count = 0;
+  return err;
 }
 
 double mem_size (struct leaf *l) {
@@ -45,6 +48,7 @@ int leaf_print (struct leaf *l) {
   for (long long i = 0; i < l->count; i++) {
     printf ("N[%lld] = %d\n", i, l->N[i]);
   }
+  return 0;
 }
 
 

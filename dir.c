@@ -32,15 +32,19 @@ int dir_init (struct dir *d, uint32_t size) {
 
 
 int dir_cleanup (struct dir *d) {
+  int err = 0;
+
   free(d->c);
   d->size = 0;
   d->count = 0;
+  return err;
 }
 
 int dir_print (struct dir *d) {
   for (long long i = 0; i < d->count; i++) {
     printf ("dir[%lld] = %d\n", i, d->c[i]);
   }
+  return 0;
 }
 
 double mem_size(struct dir *d) {

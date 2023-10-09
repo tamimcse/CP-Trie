@@ -28,4 +28,4 @@ No external library is needed.
 
 Contact
 ==========
-MD Iftakharul Islam (Tamim): tamim@csebuet.org
+MD Iftakharul Islam (Tamim): mislam4@kent.edu
